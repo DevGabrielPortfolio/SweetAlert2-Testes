@@ -67,9 +67,9 @@ const alertConirm = document.getElementById('alertConirm').addEventListener('cli
 const alertTimer = document.getElementById('alertTimer').addEventListener('click', () => {
     let timerInterval;
     Swal.fire({
-        title: "Alerta com timer",
-        html: "fechará em <b></b> milliseconds.",
-        timer: 2000,
+        title: "processando seus dados",
+        text: "Aguarde, pegue um café!",
+        timer: 3000,
         timerProgressBar: true,
         didOpen: () => {
             Swal.showLoading();
